@@ -1,0 +1,39 @@
+.callout.scheduled-banner {
+	
+	border: none;
+	margin-bottom: 0;
+	
+	@each $name, $color in $foundation-palette {
+		
+		&.#{$name} {
+			
+			background-color: $color;
+			color: color-pick-contrast( $color, ( $callout-font-color, $callout-font-color-alt ) );
+			
+			h1, h2, h3, h4, h5, h6 {
+				
+				color: color-pick-contrast( $color, ( $callout-font-color, $callout-font-color-alt ) );
+				
+			}
+			
+			a {
+				
+				color: color-pick-contrast( $color, ( $callout-font-color, $callout-font-color-alt ) );
+				text-decoration: underline;
+				
+				&:hover {
+					color: color-pick-contrast( $color, ( scale-color( $callout-font-color, $lightness: -14% ), scale-color( $callout-font-color-alt, $lightness: -14% ) ) );
+					text-decoration: none;
+				}
+				
+			}
+			
+		}
+		
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+	
+}
