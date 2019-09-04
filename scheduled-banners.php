@@ -3,7 +3,7 @@
  * Plugin Name: GSCR Scheduled Banners
  * Plugin URI: https://github.com/Good-Shepherd-Catholic-Radio/scheduled-banners
  * Description: Shows scheduled banners on the home page
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: scheduled-banners
  * Author: Eric Defore
  * Author URI: https://realbigmarketing.com/

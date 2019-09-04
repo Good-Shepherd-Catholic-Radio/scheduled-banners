@@ -1,6 +1,6 @@
 {
 	"name": "Scheduled_Banners",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "gulpfile.js",
 	"dependencies": {},
 	"devDependencies": {
