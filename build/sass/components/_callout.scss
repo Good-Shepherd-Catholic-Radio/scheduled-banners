@@ -16,7 +16,7 @@
 				
 			}
 			
-			a {
+			a:not(.button) {
 				
 				color: color-pick-contrast( $color, ( $callout-font-color, $callout-font-color-alt ) );
 				text-decoration: underline;
