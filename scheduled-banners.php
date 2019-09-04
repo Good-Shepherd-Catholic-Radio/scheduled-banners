@@ -9,7 +9,7 @@
  * Author URI: https://realbigmarketing.com/
  * Contributors: d4mation
  * GitHub Plugin URI: Good-Shepherd-Catholic-Radio/scheduled-banners
- * GitHub Branch: develop
+ * GitHub Branch: master
  */
 
 // Exit if accessed directly
